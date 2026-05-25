@@ -1,0 +1,16 @@
+/* Stealth Mode - hide LIGHTCORD plugin UI (but NOT settings access) */
+
+/* Plugin buttons: header bar, channel toolbar, chat bar, user area */
+body.LIGHTCORD-stealth .vc-header-bar-btns,
+body.LIGHTCORD-stealth .vc-channel-toolbar-btns,
+body.LIGHTCORD-stealth .vc-chat-bar-btns,
+body.LIGHTCORD-stealth .vc-user-area-btns,
+
+/* Titlebar injected elements */
+body.LIGHTCORD-stealth #LIGHTCORD-titlebar-btn,
+body.LIGHTCORD-stealth #LIGHTCORD-titlebar-link-style,
+
+/* LIGHTCORDAI nav button */
+body.LIGHTCORD-stealth .nai-nav-item {
+    display: none !important;
+}
